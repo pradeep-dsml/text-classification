@@ -11,5 +11,11 @@ Original file is located at
 
 import streamlit as st
 
+st.title("Text classification app")
+
 st.write("hello pradeep")
+text=st.text_input("type your text here here")
+#if st.button("Predict"):
+ #   result=(text)
+#st.success("the text is {}".format(result)
 
